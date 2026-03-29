@@ -111,9 +111,6 @@ python predict.py --text "An absolute masterpiece, one of the best films ever ma
 
 # Interactive mode
 python predict.py --interactive
-
-# Batch from file
-python predict.py --file reviews.txt
 ```
 
 ### 6. Launch the web interface
