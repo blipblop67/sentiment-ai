@@ -165,20 +165,3 @@ python app.py --share     # generates a public link
 | `--dropout` | 0.3 | Dropout on classifier head |
 
 ---
-
-## Extending the project
-
-- **Multi-class sentiment** — extend to 5 stars using Yelp or Amazon dataset
-- **DistilBERT** — 66M parameter model, 60% faster with ~3% accuracy drop
-- **Stockfish-style calibration** — temperature scaling to reduce overconfident errors
-- **Aspect-based sentiment** — classify sentiment per aspect (acting, plot, visuals)
-- **REST API** — wrap `predict.py` in FastAPI and deploy as a web service
-
----
-
-## References
-
-- [BERT paper (Devlin et al., 2018)](https://arxiv.org/abs/1810.04805)
-- [Hugging Face transformers](https://huggingface.co/docs/transformers)
-- [IMDb dataset on Hugging Face](https://huggingface.co/datasets/imdb)
-- [Ollama](https://ollama.com)
